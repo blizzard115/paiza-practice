@@ -64,3 +64,12 @@ N個の単語が順番に与えられる。
 - `result += char` で文字を連結する
 - `unless` は「条件に当てはまらない場合に実行する」処理
 - `gsub` を使うと文字列の置換・削除もできる
+
+### エレベーター移動距離問題
+
+学んだこと
+
+- `current_floor` で現在地を管理する
+- `next_floor` で次に止まった階を受け取る
+- `(next_floor - current_floor).abs` で移動距離を求める
+- 移動後は `current_floor = next_floor` で現在地を更新する
